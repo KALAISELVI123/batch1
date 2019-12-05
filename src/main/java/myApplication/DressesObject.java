@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DressesObject extends BasePage {
 
-	//  size tabs
+	//qsize tabs
 
 	@FindBy(id = "layered_id_attribute_group_1")
 	private WebElement small;
