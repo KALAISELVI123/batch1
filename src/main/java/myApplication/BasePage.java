@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+public class BasePage1 {
 //edited
 	public static WebDriver driver;
 	public String browser = "chrome";
 
-	public BasePage() {
+	public BasePage1() {
 		if (driver == null) {
 			if (browser.equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");
