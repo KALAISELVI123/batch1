@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePage1 {
 //edited by priya
 	public static WebDriver driver;
-	public String browser = "chrome";
+	public String browser = "firefox";
 
 	public BasePage1() {
 		if (driver == null) {
